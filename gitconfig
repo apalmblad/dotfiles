@@ -1,0 +1,11 @@
+[user]
+	name = Adam Palmblad
+	email = adam.palmblad@teampages.com
+[alias]
+  ci = commit
+  st = status
+  co = checkout
+  ps = push
+[color]
+	diff = auto
+	status = auto
