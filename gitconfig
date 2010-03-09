@@ -9,3 +9,5 @@
 [color]
 	diff = auto
 	status = auto
+[core]
+  pages="less -FRSX"
