@@ -6,8 +6,12 @@
   st = status
   co = checkout
   ps = push
+  undo = reset --soft HEAD^
 [color]
 	diff = auto
 	status = auto
 [core]
   pages="less -FRSX"
+[diff]
+#  external = /Users/adam/workspace/dotfiles/bin/git_vim_diff_wrapper
+  tool=vimdiff
