@@ -2,13 +2,12 @@ let mapleader = ","
 
 set sts=2
 set smarttab
+set number
 set shiftwidth=2
 set autoindent
 set expandtab
 set backspace=start,indent,eol
 
-set number
-set cursorline
 set hlsearch
 syntax on
 
@@ -40,3 +39,6 @@ set ruler
 filetype plugin on
 
 map <F5> :NERDTreeToggle<CR>
+set pastetoggle=<F2>
+set nobackup
+set noswapfile
