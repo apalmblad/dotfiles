@@ -55,3 +55,4 @@ if !exists( 'RubyFunctionHeader' )
 endif
 noremap fh :call RubyFunctionHeader()<CR>
 imap <C-f> <Esc>:call RubyFunctionHeader()<CR>
+call pathogen#infect()
