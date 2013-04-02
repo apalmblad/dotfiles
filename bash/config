@@ -1,0 +1,2 @@
+export PS1="\[\033[G\]\u@\h ⚡ \W \$ "
+export EDITOR="vim"
