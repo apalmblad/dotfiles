@@ -1,0 +1,37 @@
+[user]
+  name = Adam Palmblad
+  email = apalmblad@gmail.com
+[alias]
+  ci = commit
+  st = status
+  co = checkout
+  ps = push
+  dif = diff
+  di = diff
+  undo = reset --soft HEAD^
+[color]
+	diff = auto
+	status = auto
+[core]
+  pages="less -FRSX"
+	editor = /usr/bin/vim
+	excludesfile = /Users/apalmblad/.gitignore_global
+[diff]
+#  external = /Users/adam/workspace/dotfiles/bin/git_vim_diff_wrapper
+  tool=vimdiff
+[push]
+  default=current
+[branch]
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

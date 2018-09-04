@@ -1,0 +1,7 @@
+The dotfiles of Adam Palmblad, mostly vim related.
+
+Setup:
+1. Install rcm; https://github.com/thoughtbot/rcm, brew tap thoughtbot/formulae; brew install rcm
+2. Brew install fzf
+3. npm -g i sass-lint eslint
+2. rcup
