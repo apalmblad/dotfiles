@@ -16,3 +16,12 @@
 [submodule "vim/bundle/vim-rails"]
 	path = vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule "vim/pack/tpope/start/eunuch"]
+	path = vim/pack/tpope/start/eunuch
+	url = https://github.com/tpope/vim-eunuch.git
+[submodule "vim/pack/tpope/start/surround"]
+	path = vim/pack/tpope/start/surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/pack/w0rp/start/ale"]
+	path = vim/pack/w0rp/start/ale
+	url = https://github.com/w0rp/ale.git
