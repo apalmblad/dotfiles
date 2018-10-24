@@ -34,3 +34,9 @@
 [submodule "vim/bundle/javascript-libraries-syntax"]
 	path = vim/bundle/javascript-libraries-syntax
 	url = https://github.com/othree/javascript-libraries-syntax.vim.git
+[submodule "vim/bundle/vim-karma"]
+	path = vim/bundle/vim-karma
+	url = https://github.com/maksimr/vim-karma.git
+[submodule "vim/bundle/vim-test"]
+	path = vim/bundle/vim-test
+	url = https://github.com/janko-m/vim-test.git
