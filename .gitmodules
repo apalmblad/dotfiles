@@ -22,9 +22,6 @@
 [submodule "vim/pack/tpope/start/surround"]
 	path = vim/pack/tpope/start/surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "vim/pack/w0rp/start/ale"]
-	path = vim/pack/w0rp/start/ale
-	url = https://github.com/w0rp/ale.git
 [submodule "vim/bundle/typescript-vim"]
 	path = vim/bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
