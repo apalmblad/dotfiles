@@ -22,9 +22,6 @@
 [submodule "vim/pack/tpope/start/surround"]
 	path = vim/pack/tpope/start/surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "vim/pack/w0rp/start/ale"]
-	path = vim/pack/w0rp/start/ale
-	url = https://github.com/w0rp/ale.git
 [submodule "vim/bundle/typescript-vim"]
 	path = vim/bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
@@ -34,9 +31,12 @@
 [submodule "vim/bundle/javascript-libraries-syntax"]
 	path = vim/bundle/javascript-libraries-syntax
 	url = https://github.com/othree/javascript-libraries-syntax.vim.git
-[submodule "vim/bundle/nerdtree"]
-	path = vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/vim-karma"]
+	path = vim/bundle/vim-karma
+	url = https://github.com/maksimr/vim-karma.git
 [submodule "vim/bundle/vim-test"]
 	path = vim/bundle/vim-test
 	url = https://github.com/janko-m/vim-test.git
+[submodule "vim/bundle/ale"]
+	path = vim/bundle/ale
+	url = https://github.com/w0rp/ale.git
