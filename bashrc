@@ -1,5 +1,7 @@
-source ~/.bash/config
-if [ -f ~/.localrc ]; then
+if [ -f "$HOME/.bash/config" ]; then
+  source "$HOME/.bash/config"
+fi
+if [ -f "$HOME/.localrc" ]; then
   source ~/.localrc
 fi
 
@@ -9,3 +11,8 @@ if [ -f ~/.liquidprompt/liquidprompt ]; then
 fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+export YVM_DIR=/Users/adampalmblad/.yvm
+[ -r $YVM_DIR/yvm.sh ] && source $YVM_DIR/yvm.sh
