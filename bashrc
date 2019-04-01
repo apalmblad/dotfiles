@@ -16,3 +16,4 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 export YVM_DIR=/Users/adampalmblad/.yvm
 [ -r $YVM_DIR/yvm.sh ] && source $YVM_DIR/yvm.sh
+PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
