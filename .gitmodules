@@ -1,8 +1,8 @@
 [submodule "liquidprompt"]
 	path = liquidprompt
 	url = https://github.com/nojhan/liquidprompt.git
-[submodule "/Users/adampalmblad/.dotfiles/vim/bundle/nerdtree"]
-	path = /Users/adampalmblad/.dotfiles/vim/bundle/nerdtree
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vim/bundle/vim-bundler"]
 	path = vim/bundle/vim-bundler
