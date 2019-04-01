@@ -64,3 +64,7 @@ nnoremap <silent> <C-p> :FZF<CR>
 
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+" Matchit
+au FileType html,eruby,rb,css,js,ts,xml runtime! macros/matchit.vim
+
