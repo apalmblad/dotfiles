@@ -3,9 +3,6 @@ The dotfiles of Adam Palmblad, mostly vim related.
 Setup:
 1. mkdir -p ~/.dotfiles; git clone REPO ~/.dotfiles
 1. Install homebrew, via https://brew.sh/
-1. Install rcm; https://github.com/thoughtbot/rcm: `brew tap thoughtbot/formulae && brew install rcm`
-2. brew install fzf
-1. brew install --HEAD universal-ctags/universal-ctags/universal-ctags
-1. brew install grep # faster grep
+1. brew bundle
 3. npm -g i sass-lint eslint
 2. rcup
