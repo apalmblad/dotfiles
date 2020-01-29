@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+defaults write -g NSRequiresAquaSystemAppearance -bool true
+defaults write com.apple.Dock autohide-delay -float 0
+defaults write com.apple.dock tilesize -int 16
+defaults write com.apple.dock magnification -bool false
+defaults write com.apple.dock size-immutable -bool true
+defaults write com.apple.dock 'orientation' -string 'left'
+defaults write com.apple.Dock autohide -bool true
+killall Dock
