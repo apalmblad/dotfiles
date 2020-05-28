@@ -6,3 +6,5 @@ Setup:
 1. brew bundle
 3. npm -g i sass-lint eslint
 2. rcup
+1. ln -s /usr/local/bin/ggrep /usr/local/bin/grep
+1. Apps: `mas install 585829637` # todoist
