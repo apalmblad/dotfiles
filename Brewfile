@@ -7,3 +7,5 @@ brew "universal-ctags/universal-ctags/universal-ctags", args: ['HEAD']
 cask "1password-cli"
 cask "amethyst"
 brew "neovim"
+cask "skitch"
+brew "liquidprompt"
