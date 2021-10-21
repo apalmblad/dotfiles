@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 defaults write -g NSRequiresAquaSystemAppearance -bool true
+defaults write "Apple Global Domain" "AppleInterfaceStyle" "Dark"
 defaults write com.apple.Dock autohide-delay -float 0
 defaults write com.apple.dock tilesize -int 16
 defaults write com.apple.dock magnification -bool false
@@ -8,3 +9,8 @@ defaults write com.apple.dock size-immutable -bool true
 defaults write com.apple.dock 'orientation' -string 'left'
 defaults write com.apple.Dock autohide -bool true
 killall Dock
+defaults write com.apple.menuextra.battery -ShowPercent YES
+defaults write com.apple.menuextra.clock DateFormat -string 'M d  H:mm'
+killall SystemUIServer
+defaults write com.apple.spotlight DictionaryLookupEnabled NO
+killall Spotlight
