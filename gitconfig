@@ -5,10 +5,16 @@
   ci = commit
   st = status
   co = checkout
+  chekcout = checkout
   ps = push
   dif = diff
   di = diff
   undo = reset --soft HEAD^
+  a = add
+  r = rebase
+  prm = pull --rebase --autostash origin master
+  ri = "!f() { git rebase --interactive head~$1; }; f"
+
 [color]
 	diff = auto
 	status = auto
