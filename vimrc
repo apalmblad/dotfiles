@@ -56,11 +56,21 @@ imap <C-f> <Esc>:call RubyFunctionHeader()<CR>
 call pathogen#infect()
 
 call plug#begin('~/.vim/plugged')
+  Plug 'pangloss/vim-javascript'
   Plug '/usr/local/opt/fzf'
   Plug 'junegunn/fzf.vim'
+  Plug 'janko/vim-test'
+  Plug 'tpope/vim-fugitive'
+  Plug 'leafgarland/typescript-vim'
+  Plug 'ianks/vim-tsx'
+  Plug 'ap/vim-css-color'
+  Plug 'eslint/eslint'
+  Plug 'neoclide/coc.nvim', { 'branch' : 'release' }
+  Plug 'ruanyl/vim-gh-line'
 call plug#end()
 
 nnoremap <silent> <C-p> :FZF<CR>
+let g:coc_global_extensions = [ 'coc-tsserver' ]
 
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
