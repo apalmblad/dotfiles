@@ -41,8 +41,12 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[user]
-  name = Adam Palmblad
 
 [github]
   user = apalmblad
+[user]
+  name = Adam Palmblad
+  email = adam.palmblad@clio.com
+
+[url "git@github.com:clio"]
+  insteadOf = https://github.com/clio
