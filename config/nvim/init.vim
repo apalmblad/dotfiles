@@ -59,9 +59,8 @@ imap <C-f> <Esc>:call RubyFunctionHeader()<CR>
 call pathogen#infect()
 
 call plug#begin('~/.vim/plugged')
-  Plug '/usr/local/opt/fzf'
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
-  Plug 'vim-test/vim-test'
   Plug 'olimorris/neotest-rspec', { 'branch': 'main' }
   Plug 'nvim-neotest/neotest-vim-test'
   Plug 'nvim-lua/plenary.nvim'
