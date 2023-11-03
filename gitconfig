@@ -27,6 +27,7 @@
   tool=vimdiff
 [push]
   default=current
+	autoSetupRemote = true
 [branch]
 [filter "media"]
 	clean = git-media-clean %f

@@ -9,6 +9,7 @@ Setup:
 1. ln -s /usr/local/bin/ggrep /usr/local/bin/grep
 1. Apps: `mas install 585829637` # todoist
 1. Apps: `mas install 1232780281` # notion
+1. Apps: `mas install 441258766` # magnet
 1. sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # oh-my-zsh
 
 
